@@ -177,9 +177,9 @@ describe "#display_board in 'lib/display_board.rb" do
     end
 
     it 'prints an entire board full of Os' do
-      board = ["x", "x", "x", "O", "O", "O", "O", "O", "O"] 
+      board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"] 
       
-      expect(rows[0]).to eq(" x | x | x ")
+      expect(rows[0]).to eq(" O | O | O ")
       expect(rows[1]).to eq("-----------")
       expect(rows[2]).to eq(" O | O | O ")
       expect(rows[3]).to eq("-----------")
